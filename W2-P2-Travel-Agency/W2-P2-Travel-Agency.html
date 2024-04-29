@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <title>Travel-Agency</title>
+
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+
+      .jumbotron {
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .btn-primary,
+      .btn-outline-success,
+      .btn-outline-secondary {
+        background-color: #007bff;
+        border-color: #007bff;
+      }
+
+      .btn-primary:hover,
+      .btn-outline-success:hover,
+      .btn-outline-secondary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+      }
+
+      .card {
+        border: none;
+        transition: all 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        background-color: #343a40;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+      <a class="navbar-brand" href="#"
+        ><img
+          style="height: 150px"
+          src="https://img.freepik.com/premium-vector/travel-agency-logo_10250-4135.jpg?w=900"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#week-deal">Offerta della settimana</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#welcome-summer">Welcome Summer</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#last-minute">Last Minute</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#day-deal">Offerta del giorno</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonial</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="Cerca" placeholder="Cerca" aria-label="Cerca" />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cerca</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron mt-5">
+        <h1 class="display-4">TRAVEL AGENCY</h1>
+        <p class="lead">"Espandi i tuoi orizzonti, viaggia con passione!"</p>
+        <hr class="my-4" />
+        <p>Prenota da noi!</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Scopri di più</a>
+      </div>
+      <section class="my-5 d-flex flex-column" id="week-deal">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+          <h3 class="text-center">Offerta della settimana</h3>
+          <button
+            type="button"
+            class="btn btn-light align-self-center"
+            data-toggle="collapse"
+            data-target="#collapseWeekDeal"
+            aria-expanded="false"
+            aria-controls="collapseWeekDeal"
+          >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAHpJREFUSEtjZKAxYKSx+Qx0t+A/ko9gllMihuEDSgzDppf+QUT1OCc1kuczMDA8YGBgaCTWJaRYADI8AWpwA7GWEGsBsuEwxxNlCTEWYDOcaEuIsQA5uGFJkWh9RCuE2jJqAcHUPRpEAx9EBF2AroDUfDBqAckhQFADAN+fGBmN2ZSzAAAAAElFTkSuQmCC"
+            />
+          </button>
+        </div>
+        <div class="row collapse show" id="collapseWeekDeal">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Fox_Sports_South_Beach_Miami_Florida_Super_Bowl_Television_Set_%2849473183616%29.jpg/1200px-Fox_Sports_South_Beach_Miami_Florida_Super_Bowl_Television_Set_%2849473183616%29.jpg"
+                class="card-img-top"
+                alt="Miami"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weekend Miami</h5>
+                <p class="card-text">
+                  Un weekend a Miami è stato un'esplosione di colori, suoni e sapori che hanno risvegliato i miei sensi
+                  fin dal primo istante. Le spiagge di sabbia bianca e le acque turchesi di Miami Beach offrivano un
+                  rifugio tropicale perfetto per rilassarsi e godersi il sole. Attraversando le strade di Wynwood, mi
+                  sono trovato immerso in un'esplosione di arte urbana, con murales vibranti che decoravano ogni parete.
+                  Le notti di Miami erano piene di vita, con locali alla moda e una scena musicale che vibrava di
+                  energia. Ma Miami è anche un crocevia culturale, con quartieri come Little Havana che offrono un
+                  assaggio autentico della cultura cubana. Il cibo era un'esperienza a parte, con piatti succulenti che
+                  mescolavano sapori latino-americani e influenze internazionali. Miami è stata una miscela
+                  irresistibile di divertimento, cultura e relax, un weekend che resterà nei miei ricordi per sempre.
+                </p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                src="https://i0.wp.com/tripnroll.net/wp-content/uploads/2023/09/giappone.jpg?fit=1300%2C865&ssl=1"
+                class="card-img-top"
+                alt="Tokyo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weekend Tokyo</h5>
+                <p class="card-text">
+                  "Un weekend a Tokyo è stato un tuffo nel cuore pulsante del Giappone moderno e tradizionale. Le strade
+                  di Shibuya sembravano un fiume in piena di persone, luci e suoni, un vortice di energia che mi ha
+                  travolto dalla prima passeggiata sulla famosa Shibuya Crossing. Ma Tokyo è molto di più di una
+                  metropoli frenetica; è un mosaico di quartieri unici che raccontano storie diverse. Da Asakusa con il
+                  suo magnifico Tempio Senso-ji avvolto nell'incenso, al quartiere di Harajuku, un tripudio di moda e
+                  eccentricità giovanile, ogni angolo di Tokyo offre una nuova scoperta. Ma ciò che ha reso questo
+                  weekend davvero speciale sono stati gli incontri con le persone del posto, sempre pronte a condividere
+                  un sorriso e una parte della loro cultura. Tokyo è stata una danza affascinante tra modernità e
+                  tradizione, un weekend che ha lasciato un'impronta indelebile nei miei ricordi."
+                </p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                src="https://statics.cedscdn.it/photos/ARGOMENTO/MED/296/296_parigi.jpg"
+                class="card-img-top"
+                alt="Parigi"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weekend Parigi</h5>
+                <p class="card-text">
+                  Un weekend a Parigi è stato un'immersione nella magia e nell'eleganza della Ville Lumière. Le sue
+                  strade storiche risuonavano di storia e cultura, con ogni angolo che raccontava una storia diversa.
+                  Dalla maestosa bellezza della Torre Eiffel al romanticismo senza tempo di Montmartre, ogni quartiere
+                  offriva un'esperienza unica. I musei erano tesori di arte e conoscenza, con capolavori come la
+                  Gioconda al Louvre che lasciavano senza fiato. Ma Parigi non era solo monumenti e musei, era anche un
+                  crocevia culinario, con caffè accoglienti e boulangerie che tentavano i sensi con profumi
+                  irresistibili di pane appena sfornato e croissant dorati. E le notti parigine erano una sinfonia di
+                  luci e suoni, con spettacoli teatrali e concerti che animavano le strade. Parigi è stata un incanto
+                  per i sensi, un weekend che ha catturato il mio cuore e la mia anima, e che rimarrà per sempre nei
+                  miei ricordi.
+                </p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card">
+              <img src="https://www.dltviaggi.it/immagine/17827/Londra%201.jpg" class="card-img-top" alt="Londra" />
+              <div class="card-body">
+                <h5 class="card-title">Weekend Londra</h5>
+                <p class="card-text">
+                  LUn weekend a Londra è stato un'immersione nella vivace energia di una delle città più affascinanti al
+                  mondo. Le sue strade, cariche di storia e modernità, offrivano un panorama unico fatto di contrasti
+                  affascinanti. Dalle maestose dimore reali di Buckingham Palace alle stravaganti strade di Camden Town,
+                  ogni quartiere raccontava una storia diversa, invitando a esplorare senza fine. I musei erano tesori
+                  di conoscenza e arte, con opere di inestimabile valore che ispiravano il cuore e la mente. Ma Londra
+                  era anche un paradiso per gli amanti della gastronomia, con pub accoglienti che offrivano pinte di
+                  birra e deliziosi fish and chips, e ristoranti di classe mondiale pronti a deliziare il palato con
+                  cucine internazionali. Le notti londinesi erano illuminate dai riflessi della città, con teatri,
+                  locali e concerti che animavano l'atmosfera. Londra è stata un'esperienza indimenticabile di scoperta
+                  e avventura, un weekend che ha catturato il mio cuore e la mia fantasia, e che rimarrà per sempre nei
+                  miei ricordi.
+                </p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5 d-flex flex-column" id="welcome-summer">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+          <h3 class="text-center">Welcome Summer</h3>
+          <button
+            type="button"
+            class="btn btn-light align-self-center"
+            data-toggle="collapse"
+            data-target="#collapseWelcomeSummer"
+            aria-expanded="false"
+            aria-controls="collapseWelcomeSummer"
+          >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAHpJREFUSEtjZKAxYKSx+Qx0t+A/ko9gllMihuEDSgzDppf+QUT1OCc1kuczMDA8YGBgaCTWJaRYADI8AWpwA7GWEGsBsuEwxxNlCTEWYDOcaEuIsQA5uGFJkWh9RCuE2jJqAcHUPRpEAx9EBF2AroDUfDBqAckhQFADAN+fGBmN2ZSzAAAAAElFTkSuQmCC"
+            />
+          </button>
+        </div>
+        <div class="row collapse show" id="collapseWelcomeSummer">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://t3.ftcdn.net/jpg/01/65/81/76/360_F_165817652_3LCS6f7K0KNIWDQ4GV5vy2NAZ3DVDHi7.jpg"
+                class="card-img-top"
+                alt="Salento"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Salento</h5>
+                <p class="card-text">Weekend nel Salento: spiagge, storia, sapori, serate animate.</p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://t3.ftcdn.net/jpg/01/65/81/76/360_F_165817652_3LCS6f7K0KNIWDQ4GV5vy2NAZ3DVDHi7.jpg"
+                class="card-img-top"
+                alt="Sardegna"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sardegna</h5>
+                <p class="card-text">Un weekend in Sardegna: spiagge, cultura, cucina, relax notturno.</p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://t3.ftcdn.net/jpg/01/65/81/76/360_F_165817652_3LCS6f7K0KNIWDQ4GV5vy2NAZ3DVDHi7.jpg"
+                class="card-img-top"
+                alt="maldives"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Polinesi</h5>
+                <p class="card-text">Weekend in Polinesi: musica, colori, cultura, mojito, avventura, relax.</p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://t3.ftcdn.net/jpg/01/65/81/76/360_F_165817652_3LCS6f7K0KNIWDQ4GV5vy2NAZ3DVDHi7.jpg"
+                class="card-img-top"
+                alt="maldives"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tenerife</h5>
+                <p class="card-text">Weekend a Tenerife: musica, sapori, cultura, arte, avventura, relax.</p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://t3.ftcdn.net/jpg/01/65/81/76/360_F_165817652_3LCS6f7K0KNIWDQ4GV5vy2NAZ3DVDHi7.jpg"
+                class="card-img-top"
+                alt="maldives"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Thailand</h5>
+                <p class="card-text">Weekend in Thailand: musica, sapori, cultura, mojito, avventura, relax.</p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://t3.ftcdn.net/jpg/01/65/81/76/360_F_165817652_3LCS6f7K0KNIWDQ4GV5vy2NAZ3DVDHi7.jpg"
+                class="card-img-top"
+                alt="maldives"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Barbados</h5>
+                <p class="card-text">Weekend a Barbados: calypso, snorkeling, atmosfera.</p>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5 d-none d-sm-block" id="day-deal">
+        <h3 class="text-center mb-4">Offerta del giorno</h3>
+
+        <div class="row">
+          <div class="col col-lg-8">
+            <img
+              src="https://cache.marriott.com/marriottassets/marriott/MLEWH/mlewh-wow-oceanhaven-1800-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*"
+              class="card-img-top"
+              alt="maldives"
+            />
+          </div>
+          <div class="col col-lg-4">
+            <h3>Fushifaru Maldive</h3>
+            <span class="badge badge-primary">Super offerta</span>
+            <p>15.06.2024 — 31.06.2024</p>
+            <p>
+              Potresti ottenere un'ottima offerta per una villa da 800 al mese, a seconda della posizione e delle
+              caratteristiche della proprietà. Potrebbe includere servizi come piscina, giardino, internet,
+              elettrodomestici moderni e una vista panoramica. Esplora le opzioni nelle tue preferite destinazioni
+              vacanziere o rivolgiti a un'agenzia immobiliare specializzata nella zona desiderata per trovare l'offerta
+              perfetta per te.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="my-5" id="last-minute">
+        <h3 class="text-center mb-4">Last Minute</h3>
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://cache.marriott.com/marriottassets/marriott/MLEWH/mlewh-wow-oceanhaven-1800-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*"
+                class="card-img"
+                alt="maldives"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://cache.marriott.com/marriottassets/marriott/MLEWH/mlewh-wow-oceanhaven-1800-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*"
+                class="card-img"
+                alt="maldives"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://cache.marriott.com/marriottassets/marriott/MLEWH/mlewh-wow-oceanhaven-1800-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*"
+                class="card-img"
+                alt="maldives"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://cache.marriott.com/marriottassets/marriott/MLEWH/mlewh-wow-oceanhaven-1800-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*"
+                class="card-img"
+                alt="maldives"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://cache.marriott.com/marriottassets/marriott/MLEWH/mlewh-wow-oceanhaven-1800-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*"
+                class="card-img"
+                alt="maldives"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg mb-4">
+            <div class="card shadow-lg">
+              <img
+                src="https://cache.marriott.com/marriottassets/marriott/MLEWH/mlewh-wow-oceanhaven-1800-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*"
+                class="card-img"
+                alt="maldives"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials" class="mb-5">
+        <h3 class="text-center">Testimonial</h3>
+        <div class="d-flex pb-4">
+          <img
+            style="height: 60px"
+            src="https://static.vecteezy.com/ti/vettori-gratis/p3/6735770-bella-donna-avatar-profilo-icona-vettoriale.jpg"
+          />
+          <div class="px-4">
+            <h6>Barbara Rollo</h6>
+            <p>
+              "Esplorare le strade tortuose di Kyoto è stato come immergersi in un'opera d'arte vivente. Ogni passo mi
+              ha portato più vicino alla bellezza intrinseca della cultura giapponese. Dalle antiche dimore dei geisha
+              ai giardini zen incantevoli, ogni momento era una sinfonia di colori e tranquillità. Ma ciò che ha reso
+              questo viaggio davvero memorabile sono stati gli incontri con le persone del posto, che con la loro
+              gentilezza e ospitalità hanno reso il mio viaggio un'esperienza indimenticabile. Kyoto rimarrà per sempre
+              nel mio cuore come un luogo di magia e meraviglia."
+            </p>
+          </div>
+        </div>
+        <div class="d-flex pb-4">
+          <img
+            style="height: 60px"
+            src="https://img.freepik.com/premium-vector/businessman-avatar-cartoon-character-profile_18591-50586.jpg"
+          />
+          <div class="px-4">
+            <h6>Marco Rossi</h6>
+            <p>
+              "Attraversare il deserto del Sahara è stata un'esperienza che ha risvegliato tutti i miei sensi. Ogni
+              duna, con la sua sinuosa eleganza, sembrava custodire un segreto millenario. Il silenzio del deserto era
+              quasi palpabile, interrotto solo dal soffio del vento che trasportava il sussurro delle sabbie. Durante le
+              notti stellate, il cielo si apriva come un libro di favole, mostrando costellazioni antiche e misteriose.
+              Ma più di tutto, sono stati gli incontri con le tribù nomadi che hanno dato vita al deserto. Le loro
+              storie di sopravvivenza e tradizioni tramandate da generazioni mi hanno insegnato l'importanza della
+              resilienza e della semplicità nella vita. Il deserto del Sahara non è solo un luogo geografico, ma un
+              viaggio spirituale che ha lasciato un'impronta profonda nella mia anima."
+            </p>
+          </div>
+        </div>
+        <div class="d-flex pb-4">
+          <img
+            style="height: 60px"
+            src="https://static.vecteezy.com/ti/vettori-gratis/p3/5419157-profilo-utente-femminile-avatar-e-una-donna-un-personaggio-per-uno-screen-saver-con-emozioni-illustrazione-su-uno-sfondo-isolato-bianco-vettoriale.jpg"
+          />
+          <div class="px-4">
+            <h6>Maria Bella</h6>
+            <p>
+              "Le Maldive sono un paradiso terrestre che va oltre ogni immaginazione. Le acque cristalline che
+              lambiscono le spiagge di sabbia bianca sembrano dipinte da un artista celeste. Ogni istante trascorso
+              sott'acqua è stato un viaggio nel regno incantato dei coralli e dei pesci tropicali, una danza di colori e
+              forme che mi ha fatto sentire parte di un mondo segreto. Ma più di tutto, è stata la calda accoglienza del
+              popolo maldiviano a rendere questo viaggio indimenticabile. La loro gentilezza e il loro sorriso sincero
+              hanno reso ogni momento un tesoro prezioso da conservare per sempre. Nelle Maldive ho trovato non solo
+              bellezza naturale, ma anche pace e serenità per l'anima. È un luogo che rimarrà nel mio cuore come un'oasi
+              di gioia e meraviglia."
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer
+      class="container-fluid d-flex flex-column justify-content-center align-items-center py-3 bg-dark text-light"
+    >
+      <button type="button" class="btn btn-outline-secondary mb-2" data-toggle="modal" data-target="#exampleModal">
+        Contattaci
+      </button>
+
+      <span>© 2023 Travel Agency SPA. All Rights Reserved.</span>
+
+      <!-- Loghi -->
+
+      <div class="d-flex mb-2">
+        <button type="button" class="btn btn-outline-secondary mr-2">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATtJREFUSEu1lY0RwiAMhdNJ1EnUSdRJ1EnUSdRJdBT7esA9aALhznLn0Qrke/lpGGThMSxsXzyAnYhsRQQzft9xfoX5HZ5NnTXAWkRuwWjNUQD3ATjbZwHO485LR/gAuYvItTyjAbzGYRRe8oCoDFICcOBTUQ6jMAC1cbAgrJ84LyXg2Yj5Rol16TEg2DcNBhxDUi0HoBrq4oC3B6ouPoeko9IyQCv2HN+WmLSXPUBJ4qA1oD7GviUG6uFF5gGSW1YFw3oAKQ/sgQbIEma4ZhXGZJsB2kYPQBOWCoIBWlxjG4AYPHMFxWftu1EBaGTw4h9JTvnq+dC8SU4VVOYA77VW4QWkj0wD4D+rxj2AZrOL8dcgLQCvpzz2XDgWYNZBuUo8V2Zsanw9oqWsxq75sG6yCPEAKpXbXloc8AOPHlEZbVZaMAAAAABJRU5ErkJggg=="
+          />
+        </button>
+        <button type="button" class="btn btn-outline-secondary mr-2">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ5JREFUSEvlldENwjAMRK+bwCTAJMAkwCTAJLAJbAJ6VYyS1EmTj35hCVFI4rPvLu6ghWNYOL/+F2Ar6SRpFSi+SbqE3/vwPC7lFD0kHSW9K9ocJF2ddc4AyHkAXYBPSG4VeTjsKQUgT0n38J10APorOnkOG+NuStXHgDtLXqIIfi1IzoeKjAKPHttP51D0i1wDKozF670mVYCcot7k7E8EbqGoF2SdOzCniC6wqvm7F2AyGbxRgchcFvToiQk9HkX812LFHBiHQc8kSsMOJ3EPWiPxfs2m8Ro6QNUckEuNJfI6MIHpYk6HYuUeQI+DmDdzQ3HE8GyKizbBqrFd40FWm7aJbv/7Rmu17/Iv/S/ZejIZnal+BAAAAABJRU5ErkJggg=="
+          />
+        </button>
+        <button type="button" class="btn btn-outline-secondary">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW5JREFUSEvFlc1NBDEMhd82wRWoBLhwpwAEVAKIQoAyOAGV8HPhTAWwH/IbWRPPbFZotJFWq1Ecv5/YzkoLr9XC+bUzgANJF5KO4zcl9D02XiTdSvL3EF8puJR0HxEc4PDcggxEiH0IoEkAgt8i6ckW98O554i/yqTGCmCOgsNKbgF4Hoy/JZ1V5MYAsEdqxR7g/bUNsH0NO04lPUn6jD2rGM6PAX7iIDK9SIgyfM4LIneSviTtrVU/hk3E48Df6gGAFclvwg5XGN+ADMmCCEqHvJsAXFFOnhV4Dztcab7DWYCcbO7SXXFVfDfAdVgzVVXc2b8A8J47qCwyOAVBg7G6LCLYVeQK4t9dmi8Z73NJbw0Aq7kyJXmePxsBmkYJ6Z43R5HwI9mSK6tp1GpU4PuYWc9YclVli5tGc5DHRTN+J5CyjbkvygfHDZRnfc+4JiZXVDkq8vyhDO39HIDfDGZR83bs7MnsudSumMUV/AIe7GgZglVbgwAAAABJRU5ErkJggg=="
+          />
+        </button>
+      </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contattaci</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <div class="input-group">
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+            <button type="button" class="btn btn-primary">Invia</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      window.onload = function () {
+        const countTravels = function () {
+          const cards = document.querySelectorAll(".card");
+
+          alert("ci sono " + cards.length + " viaggi visualizzati nella pagina");
+        };
+        countTravels();
+
+        const addBadge = function () {
+          const cardsTitles = document.querySelectorAll("#welcome-summer .card-title");
+
+          for (let i = 0; i < cardsTitles.length; i++) {
+            const title = cardsTitles[i];
+            // <span class="badge badge-pill badge-danger">Danger</span>
+            const span = `<span class="badge badge-pill badge-danger ml-2">HOT</span>`;
+            title.innerHTML += span;
+          }
+        };
+
+        addBadge(); //questo aggiunge badge interessanti sulle carte
+      };
+      const removeCards = function () {
+        const cards = document.querySelectorAll(".card");
+
+        for (let i = 0; i < cards.length; i++) {
+          const card = cards[i];
+          card.remove();
+        }
+      };
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
